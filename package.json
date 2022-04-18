@@ -3,19 +3,21 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "default": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
-  "author": "Jaliya roshen",
+  "author": "Jaliya Jayarathne",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
   },
   "dependencies": {
-    "core-js": "^3.19.1",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.9"
+    "fracty": "^1.0.9"
   }
 }
